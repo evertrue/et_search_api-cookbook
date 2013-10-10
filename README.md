@@ -1,10 +1,10 @@
 et_search_api Cookbook
 =========================
-This is a wrapper cookbook to support the EverTrue Contacts API.
+This is a wrapper cookbook to support the EverTrue Search API.
 
 Requirements
 ------------
-- `hipsnip-jetty` - et_contactsapi needs hipsnip-jetty to provide web services.
+- `hipsnip-jetty` - et_search_api needs hipsnip-jetty to provide web services.
 
 Attributes
 ----------
