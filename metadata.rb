@@ -8,4 +8,5 @@ version          '1.3.1'
 
 depends         'et_hipsnip-jetty', '= 1.3.0'
 depends         'et_newrelic'
+depends         'et_users'
 depends         'autodeployer', '= 1.0.2'
