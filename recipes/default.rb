@@ -10,10 +10,10 @@ include_recipe "et_hipsnip-jetty::default"
 include_recipe "et_newrelic"
 include_recipe "et_users::evertrue"
 
-creds = Chef::EncryptedDataBagItem.load(
-    'secrets',
-    'api_keys'
-  )['autodeploy'][node.chef_environment]
+# creds = Chef::EncryptedDataBagItem.load(
+#     'secrets',
+#     'api_keys'
+#   )['autodeploy'][node.chef_environment]
 
 # autodeployer "search.war" do
 #   webapp_dir "/usr/share/jetty/webapps"
