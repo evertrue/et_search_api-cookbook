@@ -19,7 +19,7 @@ The `cluster` attributes above do _not_ have any defaults set in either the `et_
 
 The other attributes are overrides, to provide settings for monitoring & starting the app:
 
-* `node['jetty"]['java_options']`
+* `node['jetty']['java_options']`
 
 ## Usage
 
@@ -27,4 +27,4 @@ Add the recipe to a node’s run list.
 
 ## License and Authors
 
-Authors: Eric Herot <eric.herot@evertrue.com>
+Authors: EverTrue <devops@evertrue.com>

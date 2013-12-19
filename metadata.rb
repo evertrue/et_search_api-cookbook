@@ -1,6 +1,6 @@
 name             'et_search_api'
 maintainer       'EverTrue, Inc.'
-maintainer_email 'eric.herot@evertrue.com'
+maintainer_email 'devops@evertrue.com'
 license          'All rights reserved'
 description      'Wrapper cookbook to support EverTrue Search API'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
