@@ -19,7 +19,6 @@ The `cluster` attributes above do _not_ have any defaults set in either the `et_
 
 The other attributes are overrides, to provide settings for monitoring & starting the app:
 
-* `node['newrelic']['app_name']`
 * `node['jetty"]['java_options']`
 
 ## Usage

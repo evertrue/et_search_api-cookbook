@@ -7,7 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 include_recipe 'et_hipsnip-jetty::default'
-include_recipe 'et_newrelic'
 include_recipe 'et_users::evertrue'
 
 # creds = Chef::EncryptedDataBagItem.load(

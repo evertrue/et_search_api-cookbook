@@ -2,7 +2,6 @@ site :opscode
 
 metadata
 
-cookbook 'et_newrelic', git: 'git@github.com:evertrue/et_newrelic-cookbook'
 cookbook 'et_users', git: 'git@github.com:evertrue/et_users-cookbook'
 #cookbook 'et_users', path: '../et_users'
 cookbook 'chef-solo-search', git: 'git@github.com:edelight/chef-solo-search'
