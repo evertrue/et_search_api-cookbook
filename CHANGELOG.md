@@ -1,3 +1,7 @@
+## 1.4.1
+
+* Remove New Relic Java Agent from Jetty options
+
 ## 1.4.0
 
 * Remove et_newrelic
