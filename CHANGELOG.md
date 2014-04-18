@@ -2,6 +2,11 @@ CHANGELOG for et_contacts_api
 ===================================
 This file is used to list changes made in each version of the et_contacts_api cookbook.
 
+v1.4.2 (2014-04-18)
+-------------------
+- Update to et_hipsnip-jetty v2.0.1 to decrease `maxThreads` for Jetty
+
+
 v1.4.1 (2013-12-19)
 -------------------
 * Remove New Relic Java Agent from Jetty options
