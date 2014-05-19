@@ -8,4 +8,3 @@ version          '1.4.2'
 
 depends         'et_hipsnip-jetty', '= 2.0.1'
 depends         'et_users', '>= 1.1.1'
-depends         'autodeployer', '= 1.0.2'
