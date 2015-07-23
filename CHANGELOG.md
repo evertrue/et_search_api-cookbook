@@ -2,6 +2,10 @@ CHANGELOG for et_contacts_api
 ===================================
 This file is used to list changes made in each version of the et_contacts_api cookbook.
 
+v1.5.1 (2015-07-23)
+-------------------
+- Change log directory for the Search API
+
 v1.5.0 (2014-05-19)
 -------------------
 - Remove autodeployer dependency
