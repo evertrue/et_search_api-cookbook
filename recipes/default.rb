@@ -17,6 +17,9 @@ else
   node.set['jetty']['app_log_dir'] = '/var/log/application_logs'
 end
 
+node.set['jetty']['java_options'] = '-Xmx1G -Djava.awt.headless=true ' \
+  "-Dcom.et.env=#{node.chef_environment} " \
+  "-Dcom.et.jetty.log.dir=#{node['jetty']['app_log_dir']}"
 
 directory node['jetty']['app_log_dir'] do
   owner  node['jetty']['user']
