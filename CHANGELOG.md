@@ -2,6 +2,10 @@ CHANGELOG for et_contacts_api
 ===================================
 This file is used to list changes made in each version of the et_contacts_api cookbook.
 
+v1.5.4 (2015-07-23)
+-------------------
+- Set jetty java options after storage recipe
+
 v1.5.3 (2015-07-23)
 -------------------
 - Fix spacing issue in recipe
