@@ -8,3 +8,4 @@ version          '1.5.0'
 
 depends         'et_hipsnip-jetty', '= 2.1.0'
 depends         'et_users', '>= 1.4.1'
+depends         'storage', '~> 2.1'
