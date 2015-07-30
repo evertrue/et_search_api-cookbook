@@ -2,6 +2,10 @@ CHANGELOG for et_contacts_api
 ===================================
 This file is used to list changes made in each version of the et_contacts_api cookbook.
 
+v1.5.6 (2015-07-30)
+-------------------
+- Change log level text
+
 v1.5.5 (2015-07-30)
 -------------------
 - Tweak jetty log level
