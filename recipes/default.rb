@@ -10,7 +10,7 @@ include_recipe 'et_hipsnip-jetty::default'
 include_recipe 'et_users::evertrue'
 include_recipe 'storage'
 
-node.set["jetty"]["log"]["level"] = 'WARNING'
+node.set["jetty"]["log"]["level"] = 'WARN'
 
 if node['storage']['ephemeral_mounts']
   node.set['jetty']['app_log_dir'] =
