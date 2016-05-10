@@ -2,6 +2,10 @@ CHANGELOG for et_contacts_api
 ===================================
 This file is used to list changes made in each version of the et_contacts_api cookbook.
 
+v1.7.0 (2016-05-10)
+-------------------
+- Loosen `et_hipsnip-jetty` pin to `~> 2.4` to allow new features
+
 v1.6.0 (2016-03-15)
 -------------------
 - Loosen `et_hipsnip-jetty` pin to `~> 2.4.5` allow patches
