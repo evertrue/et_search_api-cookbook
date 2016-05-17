@@ -23,6 +23,13 @@ node.set['jetty']['java_options'] = '-Xmx1G -Djava.awt.headless=true ' \
   "-Dcom.et.env=#{node.chef_environment} " \
   "-Dcom.et.jetty.log.dir=#{node['jetty']['app_log_dir']}"
 
+if node['newrelic']['license']
+  java_opts = "#{node['jetty']['java_options']} " \
+              "-javaagent:#{node['newrelic']['java_agent']['install_dir']}/newrelic.jar " \
+              "-Dnewrelic.environment=#{node.chef_environment}"
+  node.set['jetty']['java_options'] = java_opts
+end
+
 directory node['jetty']['app_log_dir'] do
   owner  node['jetty']['user']
   group  node['jetty']['group']
