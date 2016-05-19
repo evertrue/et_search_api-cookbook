@@ -26,7 +26,7 @@ node.set['jetty']['java_options'] = '-Xmx1G -Djava.awt.headless=true ' \
 if node['newrelic']['license']
   java_opts = "#{node['jetty']['java_options']} " \
               "-javaagent:#{node['newrelic']['java_agent']['install_dir']}/newrelic.jar " \
-              "-Dnewrelic.environment=#{node.chef_environment}"
+              "-Dnewrelic.environment=#{node['chef_env_long_name']}"
   node.set['jetty']['java_options'] = java_opts
 end
 
