@@ -2,6 +2,10 @@ CHANGELOG for et_contacts_api
 ===================================
 This file is used to list changes made in each version of the et_contacts_api cookbook.
 
+v1.7.3 (2016-05-19)
+-------------------
+- Fix New Relic Java agent env name
+
 v1.7.2 (2016-05-17)
 -------------------
 - Fix New Relic Java agent `$JAVA_OPTIONS`
