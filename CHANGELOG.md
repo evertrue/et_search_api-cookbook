@@ -2,6 +2,10 @@ CHANGELOG for et_contacts_api
 ===================================
 This file is used to list changes made in each version of the et_contacts_api cookbook.
 
+v1.7.4 (2016-07-01)
+-------------------
+- Remove New Relice Java Agent `JAVA_OPTIONS`, as the underlying Java Agent they depend on has already been removed from `et_hipsnip-jetty`
+
 v1.7.3 (2016-05-19)
 -------------------
 - Fix New Relic Java agent env name
